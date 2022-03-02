@@ -152,8 +152,8 @@ html {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3em !important;
+  width: 7em !important;
 }
 
 .navbar-nav .nav-link {
@@ -304,7 +304,8 @@ html {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 7em !important;
+  
 }
 
 @media (max-width: 767px) {
@@ -324,7 +325,7 @@ html {
   color: white !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
-  text-align: center;
+  text-align: left;
 }
 
 .home-about-body {
@@ -499,6 +500,8 @@ html {
   overflow: hidden !important;
   box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
 }
+
+
 
 .card-img-top {
   padding: 20px !important;

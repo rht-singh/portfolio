@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -15,42 +15,38 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: "2.6em"}}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I am Aditya Pandey, a second year student at IIITM Gwalior,India pursuing B.Tech+MBA in Information Technology.
+              <br/>
+              <br/>
+              My field of Interest's lies in &nbsp;
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Web and App Development</b> and
+                I love doing {" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Competitive Coding.
                 </b>
               </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+             <br />I am fluent in classics like
               <i>
+                <b className="purple"> C++ and  Javascript  </b>
+              </i>
+              <br />
+              <br/>
+            
+              When I'm not in front of my screen, I am  either found &nbsp; 
+              <i>
+                <b className="purple">playing Queen's Gambit </b> or &nbsp;
+                
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                vibing to any song!
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+              </p>
+           
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -62,12 +58,12 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>with me on 
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/AdityaPandey03"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +73,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/Pandey_Adi26"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/adityapandey2607"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +93,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/pandey_adi26"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
