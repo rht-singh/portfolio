@@ -89,7 +89,7 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-{/* 
+            {/* 
             <Nav.Item>
               <Nav.Link
                 href="https://medium.com/@pandey.aditya4272"
@@ -102,7 +102,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/AdityaPandey03/Portfolio"
+                href="https://github.com/rht-singh"
                 target="_blank"
                 className="fork-btn-inner"
               >

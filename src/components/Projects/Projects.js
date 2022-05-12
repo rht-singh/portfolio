@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import cinebuzz from "../../Assets/Projects/cinebuzz.png";
-import sticko from "../../Assets/Projects/sticko.png";
+import ai from "../../Assets/Projects/ai.png";
 import kolegia from "../../Assets/Projects/kolegia.jpeg";
-import rest from "../../Assets/Projects/rest.png";
+import affiliate from "../../Assets/Projects/affiliate.png";
 
 function Projects() {
   return (
@@ -42,25 +42,23 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={sticko}
+              imgPath={ai}
               isBlog={false}
-              title="StickoWorld"
-              description="We have used Kotlin to design the app. This app is designed for android users. Stickoworld is a platform through which you can add cool stickers to your google board. You can also add the stickers to your gallery and share them with your friends."
-              link="https://github.com/AdityaPandey03/MyDashboard"
+              title="AI New Reader"
+              description="We have used React Js to design the app. This app is designed for web users. AI New Reader is a platform through which you can search latest news by your voice command. You can also open specific news by giving a command."
+              link="https://github.com/rht-singh/A.I-news.git"
             />
           </Col>
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={rest}
+              imgPath={affiliate}
               isBlog={false}
-              title="Search Restaurant"
-              description="Developed a mobile application using react-native. Used yelp api to fetch restaurant data. Users can see restaurants based on the price. It is yet to be completed but the main purpose of this app will be to find restaurants."
-              link="https://github.com/AdityaPandey03/Restaurant-Search-App"
+              title="Affiliate Marketing"
+              description="Developed a web application using HTML , CSS and Javascript. Used yelp api to fetch users  data. Users can see buys some product based on the price.It's main purpose to create a large network."
+              link="https://github.com/amar1234jeet/affilate_marketing.git"
             />
           </Col>
-
-          
         </Row>
       </Container>
     </Container>

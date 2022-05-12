@@ -8,9 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Aditya Pandey </span>
-            from <span className="purple"> Kanpur, India.</span>
-            <br />Currently I'm a sophomore at IIITM Gwalior pursuing Information Technology.
+            Hi Everyone, I am <span className="purple">Rohit </span>
+            from <span className="purple"> Panipat, India.</span>
+            <br />
+            Currently I'm a senior at APIIT SD INDIA pursuing B.TECH From
+            Computer Science.
             <br />
             <br />
             Aside from coding, there are a few other things I enjoy doing!
